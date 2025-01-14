@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -52,6 +54,7 @@
 @layer base {
   * {
     @apply border-border;
+    font-family: 'Poppins', sans-serif;
   }
   body {
     @apply bg-background text-foreground;
@@ -59,7 +62,7 @@
 }
 
 .gradient-overlay {
-  background: linear-gradient(to right, rgba(126, 105, 171, 0.9), rgba(214, 188, 250, 0.7));
+  background: linear-gradient(to right, rgba(126, 105, 171, 0.95), rgba(214, 188, 250, 0.85));
 }
 
 .bg-image {
